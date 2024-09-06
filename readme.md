@@ -133,6 +133,19 @@ https://www.zoho.com/commerce/free-demo.html
 
 
 
+File Upload -
+-----------
 
+Plugin - https://www.npmjs.com/package/cypress-file-upload
+
+Command - npm install --save-dev cypress-file-upload
+
+Pre-requisite - File to be uploaded should be present in the fixture folder.
+
+
+Iframes - 
+-------
+
+Plugin - npm install -D cypress-iframe
 
 
