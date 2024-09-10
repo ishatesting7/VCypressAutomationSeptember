@@ -5,6 +5,7 @@ module.exports = defineConfig({
   watchForFileChanges:false,
   viewportHeight:800,
   viewportWidth:1000,
+  screenshotOnRunFailure:true,
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here

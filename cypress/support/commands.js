@@ -35,3 +35,20 @@ import 'cypress-file-upload';
 
 
 import 'cypress-iframe';
+
+
+Cypress.Commands.add('clickLink',(labelName)=>{
+
+    cy.get('a').contains(labelName).click();
+
+})
+
+Cypress.Commands.add('loginApp',(username, password)=>{
+
+    cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+    cy.get('[name="username"]').type(username);
+    cy.get('[name="password"]').type(password);
+    cy.get('[type="submit"]').click();
+    
+})
+
