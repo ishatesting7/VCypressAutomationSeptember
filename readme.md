@@ -167,11 +167,21 @@ A - Cloning the Repo(main) + Update his changes (2 Test Cases)
 A - Merge my code with main branch + Notification to XY + Update with Review Comments
 A - Merge the code with main branch
 
-
 B - Cloning the Repo(main) + Update his changes (3 Test Cases)
-
 
 XY - Project Manager - he will check the request. He will provide review comments
 
 XY will merge the code and push the changes to the main branch
 
+
+
+
+
+
+
+
+
+Windows and Tabs 
+----------------
+
+https://the-internet.herokuapp.com/windows
