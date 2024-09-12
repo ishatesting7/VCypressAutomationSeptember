@@ -4,7 +4,9 @@
   "description": "Cypress Automation Sep 2024",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testchrome": "npx cypress run --spec cypress/e2e/CypressAutomation/TC12-MouseOperationKeyboardTest.cy.js --browser chrome",
+    "test edge":"npx cypress run --spec cypress/e2e/CypressAutomation/TC12-MouseOperationKeyboardTest.cy.js --browser edge",
+    "sanitytest":"npx cypress run"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +14,7 @@
     "cypress": "^13.13.3",
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
     "cypress-xpath": "^2.0.1"
   }
 }

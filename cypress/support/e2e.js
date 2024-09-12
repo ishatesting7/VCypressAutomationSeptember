@@ -29,3 +29,6 @@ if (!app.document.head.querySelector("[data-hide-command-log-request]")) {
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+import 'cypress-mochawesome-reporter/register';
+

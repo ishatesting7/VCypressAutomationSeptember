@@ -185,3 +185,28 @@ Windows and Tabs
 ----------------
 
 https://the-internet.herokuapp.com/windows
+
+
+Mochawesome Report Plugin 
+
+1. https://github.com/LironEr/cypress-mochawesome-reporter
+2. Run the Command - npm i --save-dev cypress-mochawesome-reporter
+3. Make some changes to cypress.config.js
+
+const { defineConfig } = require('cypress');
+
+module.exports = defineConfig({
+  reporter: 'cypress-mochawesome-reporter',
+  e2e: {
+    setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
+    },
+  },
+});
+
+3. Add in e2e.js - 
+
+import 'cypress-mochawesome-reporter/register';
+
+4. run using - npx cypress run
+
