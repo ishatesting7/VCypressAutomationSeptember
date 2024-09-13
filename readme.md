@@ -210,3 +210,9 @@ import 'cypress-mochawesome-reporter/register';
 
 4. run using - npx cypress run
 
+--------------------------------
+To take the input from USER - 
+
+npm install prompt-sync
+
+const prompt=require("prompt-sync")({sigint:true}); - Add this in JS file at the top
