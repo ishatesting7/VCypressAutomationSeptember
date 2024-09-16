@@ -175,12 +175,6 @@ XY will merge the code and push the changes to the main branch
 
 
 
-
-
-
-
-
-
 Windows and Tabs 
 ----------------
 
