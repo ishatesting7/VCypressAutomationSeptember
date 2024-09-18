@@ -23,8 +23,7 @@ describe('Web Tables', function(){
 it('Read all the value', ()=>{
 
     cy.get('table[class="table table-bordered table-hover"]>tbody>tr').each(($row, index, $rows) =>{
-
-
+//table[class="table table-bordered table-hover"]>tbody>tr  --> row - firstmatch.. index - Increment, rows - multiple
         cy.wrap($row).within(()=>{
 
             cy.get('td').each(($col, index, $cols)=>{
