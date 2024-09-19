@@ -1,0 +1,17 @@
+{
+    "user": {
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": [
+        {
+          "street": "213 Avenue Apt",
+          "city": "California"
+        },
+        {
+          "street": "213 Avenue At",
+          "city": "California"
+        }
+      ]
+    }
+  }
