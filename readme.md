@@ -210,3 +210,50 @@ To take the input from USER -
 npm install prompt-sync
 
 const prompt=require("prompt-sync")({sigint:true}); - Add this in JS file at the top
+
+
+
+API Testing 
+-----------
+JSON - Java Single Object Notation
+GraphQL - Graph Query language
+XML 
+Raw Text
+
+
+API METHODS - Application Programming Interface
+-----------
+GET
+POST
+PUT
+PATCH
+DELETE
+
+Customer ---> Waiter ---> Cooks
+
+Frontend ---> APIs ---> Backend
+
+Status Code - 1XX, 2XX, 3XX, 4XX, 5XX 
+Request Payload - JSON, XML
+Response Payload - JSON, XML
+
+
+API - Postman, Swagger
+
+POST - Creating a new Record in the DB
+Status Code - 201 Created
+
+		Server Side Errors
+			- 500 Internal Server Error
+			- 501 Not Implemented
+			- 504 Gateway Timeout
+
+
+		Client Side Errors
+			- 401 Unauthorized
+			- 405 Method Not Supported
+			- 403 Forbidden
+			- 404 Not Found
+
+
+GET - Retrive the Data
