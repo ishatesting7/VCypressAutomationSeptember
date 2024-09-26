@@ -257,3 +257,11 @@ Status Code - 201 Created
 
 
 GET - Retrive the Data
+
+Tags
+----
+To Install - npm i @cypress/grep
+
+https://www.npmjs.com/package/@cypress/grep
+
+npx cypress run --spec cypress/e2e/Tags/*.js --env grep="smoke" 

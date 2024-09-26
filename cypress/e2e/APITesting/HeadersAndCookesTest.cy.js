@@ -24,7 +24,6 @@ describe('API Testing', ()=>{
         })
 
     })
-
     it('Order Book', ()=>{
         cy.request({
 
