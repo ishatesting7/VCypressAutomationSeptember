@@ -265,3 +265,7 @@ To Install - npm i @cypress/grep
 https://www.npmjs.com/package/@cypress/grep
 
 npx cypress run --spec cypress/e2e/Tags/*.js --env grep="smoke" 
+
+2 Open Issues 
+- Cypress Running All the Test Cases if we are running via FOLDER
+- Cypress-grep is not working as expected (Running all the Test Cases )
