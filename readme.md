@@ -269,3 +269,53 @@ npx cypress run --spec cypress/e2e/Tags/*.js --env grep="smoke"
 2 Open Issues 
 - Cypress Running All the Test Cases if we are running via FOLDER
 - Cypress-grep is not working as expected (Running all the Test Cases )
+
+-----------------------------------------------------------------
+Cypress BDD Cucumber -
+====================
+BDD Cucumber + PageObjectModel
+
+(Extension - .feature)
+Feature - BDD - Gherkin Language - 
+
+	Feature: Validate the login functionality
+
+Background:
+
+	Given
+	When
+	Then
+
+	Scenario Describe your scenario
+
+		Given User open the chrome browser
+		When User navigate to the URL
+		Then User enter the credentials
+		And User click on Login button
+		And User navigate to home page
+
+	Scenario outline: Validate the login functionality with some values
+
+		Given User open the chrome browser
+		When User navigate to the URL
+		Then User enter the credentials <login> and <password>
+		And User click on Login button
+		And User navigate to home page
+
+		Examples:
+		|login            | password|
+		|user1@gmail.com  | test123 |
+		|xyz1  			  | pqr |
+		|user12@gmail.com | test123 |
+		|xyz12  	      | pqr |
+
+StepDef (.js)
+
+	@Given("User open the chrome browser", ()=>{
+		//implement over here
+	})
+
+Plugin - tidyGherkin
+
+
+Runner

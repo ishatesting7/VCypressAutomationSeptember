@@ -8,6 +8,7 @@ module.exports = defineConfig({
   viewportHeight:800,
   viewportWidth:1000,
   screenshotOnRunFailure:true,
+
   env:{
     baseUrl:'https://demo3x.opencartreports.com/admin/',
     username:'demo',
