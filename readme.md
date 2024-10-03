@@ -319,3 +319,26 @@ Plugin - tidyGherkin
 
 
 Runner
+
+
+============================
+
+Step 1 - 
+Install - npm install @badeball/cypress-cucumber-preprocessor
+
+Step 2 - 
+Install - npm install --save-dev @faker-js/faker
+
+Step 3 - 
+Install - npm i -D cypress @bahmutov/cypress-esbuild-preprocessor esbuild
+
+Step 4 - 
+
+Update package.json --
+
+ "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/*.js",
+    "nonGlobalStepDefinitions": false
+  }
+
+  
