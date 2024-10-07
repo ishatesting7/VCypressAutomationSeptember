@@ -9,6 +9,7 @@ module.exports = defineConfig({
   viewportHeight:800,
   viewportWidth:1000,
   screenshotOnRunFailure:true,
+  projectId:"63zzmi",
 
   env:{
     baseUrl:'https://demo3x.opencartreports.com/admin/',
@@ -30,7 +31,7 @@ module.exports = defineConfig({
       require('@cypress/grep/src/plugin')(config);
       return config;
     },
-    specPattern: "**/*.feature"
+    specPattern: "**/**/**/*.feature"
 
   },
 });
