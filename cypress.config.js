@@ -31,7 +31,7 @@ module.exports = defineConfig({
       require('@cypress/grep/src/plugin')(config);
       return config;
     },
-    specPattern: "**/**/**/*.feature"
+   
 
   },
 });
